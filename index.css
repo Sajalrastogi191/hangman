@@ -1,0 +1,126 @@
+body {
+    height:100vh;
+    background-color: #4b4949;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    height:600px;
+    width:400px;
+    background-color: white;
+    border-radius: 10px;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding:30px;
+  }
+  .container h1 {
+    margin-top: 0px;
+    font-size: 45px;
+  }
+  /* human body */
+  .hangman-container{
+    background-color:black;
+    height:250px;
+    width:200px;
+    border-radius: 10px;
+    padding-top:5px;
+  }
+  .head {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #ff3333;
+    position: relative;
+    top: 20px;
+    left: 65px;
+  }
+  .body{
+    width: 10px;
+    height: 90px;
+    background-color: #ff3333;
+    position: relative;
+    top: 10px;
+    left: 95px;
+  }
+  .left-arm,
+  .right-arm {
+    width: 70px;
+    height: 10px;
+    background-color: #ff3333;
+  }
+  
+  .left-arm {
+    transform: rotate(-45deg);
+    position: relative;
+    left: 40px;
+    top:-40px;
+  }
+  
+  .right-arm {
+    transform: rotate(45deg);
+    position: relative;
+    left: 90px;
+    top:-50px;
+  }
+  
+  .left-leg,
+  .right-leg {
+    width: 70px;
+    height: 10px;
+    background-color: #ff3333;
+  }
+  
+  .left-leg {
+    transform: rotate(-45deg);
+    position: relative;
+    left: 40px;
+  }
+  
+  .right-leg {
+    transform: rotate(45deg);
+    position: relative;
+    left: 90px;
+    top:-10px;
+  }
+  
+  .word-display {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .guesses {
+    font-size: 30px;
+    margin-bottom: 10px;
+    position: relative;
+    left:-120px;
+  }
+  
+  input[type="text"] {
+    height:30px;
+    width:250px;
+    font-size: 20px;
+    border-radius: 5px;
+  }
+  #guessButton{
+    height:35px;
+    width:80px;
+    background-color: black;
+    color:white;
+    margin-bottom: 1px;
+    border-radius: 5px;
+    font-size: 20px;
+  }
+  .inputs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:20px;
+  }
+  #wordDisplay{
+    font-size: 30px;
+    margin-top: 15px;
+  }
+  
