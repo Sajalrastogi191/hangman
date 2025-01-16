@@ -28,6 +28,9 @@ body {
     border-radius: 10px;
     padding-top:5px;
   }
+  .hidden{
+    display: none;
+  }
   .head {
     width: 70px;
     height: 70px;
@@ -94,8 +97,7 @@ body {
   .guesses {
     font-size: 30px;
     margin-bottom: 10px;
-    position: relative;
-    left:-120px;
+    
   }
   
   input[type="text"] {
@@ -112,6 +114,7 @@ body {
     margin-bottom: 1px;
     border-radius: 5px;
     font-size: 20px;
+    cursor: pointer;
   }
   .inputs{
     display: flex;
@@ -122,5 +125,6 @@ body {
   #wordDisplay{
     font-size: 30px;
     margin-top: 15px;
+    letter-spacing: 15px;
   }
   
